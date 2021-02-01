@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/test_ende_list_tv0"
+        android:layout_width="0dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:paddingLeft="20dip"
+        android:paddingTop="10dip"
+        android:text="name"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/test_ende_list_tv1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="8dp" />
+
+    <TextView
+        android:id="@+id/test_ende_list_tv1"
+        android:layout_width="0dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:paddingLeft="20dip"
+        android:paddingTop="10dip"
+        android:text="name"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/test_ende_list_tv2"
+        app:layout_constraintLeft_toRightOf="@id/test_ende_list_tv0"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="8dp" />
+
+    <TextView
+        android:id="@+id/test_ende_list_tv2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:paddingLeft="20dip"
+        android:paddingTop="10dip"
+        android:text="name"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/test_ende_list_tv1"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="8dp" />
+
+</android.support.constraint.ConstraintLayout>

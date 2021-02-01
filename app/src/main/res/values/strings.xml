@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MCB - Multiple Choice Battery</string>
+    <string name="addStack">Stack ist allready exiting. </string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="show_n_answers">Show\nAnswers</string>
+    <string name="skip">Skip</string>
+    <string name="yes">YES</string>
+    <string name="addnewstack">Add and keep existing</string>
+    <string name="override">Add and delete existing</string>
+    <string name="title_activity_test_ende1">TestEnde1</string>
+    <string name="learn_button">Learn</string>
+    <string name="practise_button">Practise</string>
+    <string name="test_button">Test</string>
+    <string name="next_item_button">next</string>
+    <string name="last_item_button">last</string>
+</resources>
